@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Site</title>
   <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -27,6 +27,26 @@
             </li>
           </ul>
         </nav>
+        <div class="hidden_menu">
+          <button class="popup_button"><img src="img/menu1.png" width="60px" height="60px">
+            <div class="popup">
+              <ul class="menu_list">
+                <li class="menu_item">
+                  <a href="#">HOME</a>
+                </li>
+                <li class="menu_item">
+                  <a href="#portfolio">PORTFOLIO</a>
+                </li>
+                <li class="menu_item">
+                  <a href="#team">ABOUT US</a>
+                </li>
+                <li class="menu_item">
+                  <a href="#contact">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </button>
+        </div>
       </div>
     </header>
     <main class="page">
@@ -38,9 +58,9 @@
               <div class="description-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto atque deleniti hic, labore magnam quae quaerat ratione ullam. Ab asperiores facere iste labore maxime modi optio sapiente vero voluptas.</div>
               <a href="#contact">Contact US</a>
             </div>
-            <div class="image">
+            <a class="image" href="#">
               <img class="video" src="img/video.png" alt="">
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -195,4 +215,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/script.js"></script>
   </div>
+</body>
